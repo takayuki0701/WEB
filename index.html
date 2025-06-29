@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>株式会社fun challenge SES事業</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <h1>株式会社fun challenge</h1>
+      <p class="tagline">SES事業・人材紹介・清掃業</p>
+    </div>
+  </header>
+
+  <!-- 事業内容 -->
+  <section class="business container">
+    <h2>事業内容</h2>
+    <div class="grid">
+      <!-- SES事業 -->
+      <div class="card">
+        <img src="SES.jpg" alt="SES事業" class="business-img" />
+        <h3>SES事業</h3>
+        <ul>
+          <li>・求めるレベルのエンジニアをご紹介</li>
+          <li>・スピーディーなマッチング・対応</li>
+          <li>・スキルギャップを防ぐチェック体制</li>
+        </ul>
+      </div>
+      <!-- 外国人人材紹介 -->
+      <div class="card">
+        <img src="外国人材.jpg" alt="外国人人材紹介" class="business-img" />
+        <h3>外国人人材紹介</h3>
+        <ul>
+          <li>・即戦力の補填が可能</li>
+          <li>・長期的な人材戦略に最適</li>
+          <li>・高い就労意欲を持つ人材</li>
+        </ul>
+      </div>
+      <!-- 清掃業 -->
+      <div class="card">
+        <img src="清掃.jpg" alt="清掃業" class="business-img" />
+        <h3>清掃業</h3>
+        <ul>
+          <li>・日常清掃・特殊清掃など幅広く対応</li>
+          <li>・お急ぎの案件にもスピーディー対応</li>
+          <li>・低価格で適切な品質を担保</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 代表紹介 -->
+  <section class="executive container">
+    <h2>代表紹介</h2>
+    <div class="exec-card">
+      <img src="https://i.imgur.com/VVI6FN3.jpeg" alt="井村 隆之" />
+      <p><strong>代表取締役</strong><br>井村 隆之</p>
+    </div>
+  </section>
+
+  <!-- 代表メッセージ -->
+  <section class="message container">
+    <h2>代表メッセージ</h2>
+    <p>「挑戦を支援する」「挑戦を楽しむ」を大切に、<br>
+    一人ひとりの可能性を最大限に引き出すことを目指しています。<br>
+    新しい技術、新しい人材、新しい働き方…<br>
+    未来を切り拓くその一歩を、全力でサポートいたします。</p>
+  </section>
+
+  <!-- 会社情報 -->
+  <section class="company-info container">
+    <h2>会社情報</h2>
+    <ul>
+      <li><strong>会社名：</strong>株式会社fun challenge</li>
+      <li><strong>所在地：</strong>大阪市阿倍野区阿倍野元町3-10-206</li>
+      <li><strong>設立：</strong>2023年12月1日</li>
+      <li><strong>資本金：</strong>500万円</li>
+      <li><strong>従業員数：</strong>23名（アルバイト含む）</li>
+      <li><strong>事業内容：</strong>SES事業、外国人人材紹介、清掃業</li>
+    </ul>
+  </section>
+
+  <!-- お問い合わせフォーム -->
+  <section class="contact container">
+    <h2>お問い合わせ</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <label for="name">お名前</label>
+      <input type="text" id="name" name="お名前" required />
+
+      <label for="kana">ふりがな</label>
+      <input type="text" id="kana" name="ふりがな" required />
+
+      <label for="email">メールアドレス</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">お問い合わせ内容</label>
+      <textarea id="message" name="お問い合わせ内容" rows="5" required></textarea>
+
+      <button type="submit">送信する</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 株式会社fun challenge</p>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+
